@@ -1,0 +1,50 @@
+site_name: PHP Chess Server
+site_url: https://chess-server.chesslablab.org
+nav:
+  - Getting Started: getting-started.md
+  - data:
+    - Basic:
+      - /annotations_game: annotations-game.md
+      - /ranking: ranking.md
+    - Parameterized:
+      - /autocomplete_black: autocomplete-black.md
+      - /autocomplete_event: autocomplete-event.md
+      - /autocomplete_white: autocomplete-white.md
+      - /opening: opening.md
+      - /search: search.md
+  - game:
+    - Basic:
+      - /ascii: ascii.md
+      - /eval_names: eval-names.md
+      - /online_games: online-games.md
+      - /undo: undo.md
+    - Action:
+      - /draw: draw.md
+      - /rematch: rematch.md
+      - /takeback: takeback.md
+    - Parameterized:
+      - /accept: accept.md
+      - /heuristic: heuristic.md
+      - /leave: leave.md
+      - /legal: legal.md
+      - /play: play.md
+      - /play_lan: play-lan.md
+      - /play_rav: play-rav.md
+      - /randomizer: randomizer.md
+      - /recognizer: recognizer.md
+      - /resign: resign.md
+      - /restart: restart.md
+      - /start: start.md
+      - /stockfish: stockfish.md
+      - /tutor_fen: tutor-fen.md
+  - binary:
+    - Parameterized:
+      - /image: image.md
+  - auth:
+    - Basic:
+      - /totp_signup: totp-signup.md
+    - Parameterized:
+      - /totp_refresh: totp-refresh.md
+      - /totp_signin: totp-signin.md
+
+theme: mkdocs

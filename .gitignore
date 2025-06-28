@@ -1,0 +1,17 @@
+.env
+
+# php
+/vendor/
+
+/ssl/*.pem
+/ssl/*.csr
+/ssl/*.crt
+/ssl/*.key
+
+/storage/*.log
+/storage/tmp/*
+!/storage/tmp/.gitkeep
+
+/.phpunit.result.cache
+
+/site/
